@@ -20,8 +20,8 @@ def query_event(plant, sheet, sensor_table):  # each rows
             continue
         value = sensors_value(sensor_table, tag)
         txt = message + ' : ' + str(value)
-        print(f'    value : {value}')
         print(f'    message : {message}')
+        print(f'    value : {value}')
         texts.append(txt)
     print(f'texts : {texts}')
     send_text(texts, plant)  # Send Massage to ms-team

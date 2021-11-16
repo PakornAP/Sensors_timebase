@@ -5,10 +5,10 @@ from datetime import datetime
 
 
 def send_text(texts, plant):
-    # You must create the connectorcard object with the Microsoft Webhook URL
+    # connect with web hooks in yaml file
     Webhooks_URL = get_value('Webhooks_URL')
     myTeamsMessage = pymsteams.connectorcard(Webhooks_URL)
-    # Add title
+    # Time report
     now_time = datetime.now()
     now_time = now_time.strftime("%Y-%m-%d %H:%M:%S")
     date_time = 'Datetime : ' + now_time
@@ -16,6 +16,7 @@ def send_text(texts, plant):
     # Add text to the message.
     n_line = '   \n'
     result = ''
+    # list of message
     for txt in texts:
         result = result+txt+n_line
     myTeamsMessage.text(date_time + n_line + result)
