@@ -19,6 +19,7 @@ def send_text(texts, plant):
     # list of message
     for txt in texts:
         result = result+txt+n_line
-    myTeamsMessage.text(date_time + n_line + result)
+    footer = n_line+'Production rate is a value at message sending time'
+    myTeamsMessage.text(date_time + n_line + result + n_line+footer)
     # send the message.
     myTeamsMessage.send()
