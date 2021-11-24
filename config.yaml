@@ -3,3 +3,13 @@ Sensors_data: "./data/data_mock.csv"
 All_Plant:
   ["HDPE 1", "HDPE 2", "HDPE 3", "HDPE 4", "LLDPE", "LDPE", "PP1", "PP2", "PP3"]
 Webhooks_URL: "https://scgo365.webhook.office.com/webhookb2/eb8cd8a6-966b-4661-8639-f3ddbc1bb694@5db8bf0e-8592-4ed0-82b2-a6d4d77933d4/IncomingWebhook/96a10837d4ff4c0d85ce0f72db5b23db/9dcffeb6-b731-4805-b82b-44e2b5b2d840"
+All_HooksURL:
+  HDPE 1: "https://scgo365.webhook.office.com/webhookb2/eb8cd8a6-966b-4661-8639-f3ddbc1bb694@5db8bf0e-8592-4ed0-82b2-a6d4d77933d4/IncomingWebhook/96a10837d4ff4c0d85ce0f72db5b23db/9dcffeb6-b731-4805-b82b-44e2b5b2d840"
+  HDPE 2: "https://scgo365.webhook.office.com/webhookb2/eb8cd8a6-966b-4661-8639-f3ddbc1bb694@5db8bf0e-8592-4ed0-82b2-a6d4d77933d4/IncomingWebhook/96a10837d4ff4c0d85ce0f72db5b23db/9dcffeb6-b731-4805-b82b-44e2b5b2d840"
+  HDPE 3: "https://scgo365.webhook.office.com/webhookb2/eb8cd8a6-966b-4661-8639-f3ddbc1bb694@5db8bf0e-8592-4ed0-82b2-a6d4d77933d4/IncomingWebhook/96a10837d4ff4c0d85ce0f72db5b23db/9dcffeb6-b731-4805-b82b-44e2b5b2d840"
+  HDPE 4: "https://scgo365.webhook.office.com/webhookb2/eb8cd8a6-966b-4661-8639-f3ddbc1bb694@5db8bf0e-8592-4ed0-82b2-a6d4d77933d4/IncomingWebhook/96a10837d4ff4c0d85ce0f72db5b23db/9dcffeb6-b731-4805-b82b-44e2b5b2d840"
+  LLDPE: "https://scgo365.webhook.office.com/webhookb2/eb8cd8a6-966b-4661-8639-f3ddbc1bb694@5db8bf0e-8592-4ed0-82b2-a6d4d77933d4/IncomingWebhook/96a10837d4ff4c0d85ce0f72db5b23db/9dcffeb6-b731-4805-b82b-44e2b5b2d840"
+  LDPE: "https://scgo365.webhook.office.com/webhookb2/eb8cd8a6-966b-4661-8639-f3ddbc1bb694@5db8bf0e-8592-4ed0-82b2-a6d4d77933d4/IncomingWebhook/96a10837d4ff4c0d85ce0f72db5b23db/9dcffeb6-b731-4805-b82b-44e2b5b2d840"
+  PP1: "https://scgo365.webhook.office.com/webhookb2/eb8cd8a6-966b-4661-8639-f3ddbc1bb694@5db8bf0e-8592-4ed0-82b2-a6d4d77933d4/IncomingWebhook/96a10837d4ff4c0d85ce0f72db5b23db/9dcffeb6-b731-4805-b82b-44e2b5b2d840"
+  PP2: "https://scgo365.webhook.office.com/webhookb2/eb8cd8a6-966b-4661-8639-f3ddbc1bb694@5db8bf0e-8592-4ed0-82b2-a6d4d77933d4/IncomingWebhook/96a10837d4ff4c0d85ce0f72db5b23db/9dcffeb6-b731-4805-b82b-44e2b5b2d840"
+  PP3: "https://scgo365.webhook.office.com/webhookb2/eb8cd8a6-966b-4661-8639-f3ddbc1bb694@5db8bf0e-8592-4ed0-82b2-a6d4d77933d4/IncomingWebhook/96a10837d4ff4c0d85ce0f72db5b23db/9dcffeb6-b731-4805-b82b-44e2b5b2d840"

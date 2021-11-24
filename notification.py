@@ -6,7 +6,8 @@ from datetime import datetime
 
 def send_text(texts, plant):
     # connect with web hooks in yaml file
-    Webhooks_URL = get_value('Webhooks_URL')
+    # Webhooks_URL = get_value('Webhooks_URL')
+    Webhooks_URL = get_value('All_HooksURL')[plant]
     myTeamsMessage = pymsteams.connectorcard(Webhooks_URL)
     # Time report
     now_time = datetime.now()

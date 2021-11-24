@@ -2,8 +2,6 @@ import pandas as pd
 from get_value import get_value
 from notification import send_text
 
-from notification import send_text
-
 
 def sensors_value(sensor_table, tag):
     return sensor_table[tag].iloc[-1]  # last row value
